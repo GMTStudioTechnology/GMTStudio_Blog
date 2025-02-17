@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, JSX } from "react";
 import { Transition } from "@headlessui/react";
 import { motion, AnimatePresence } from "framer-motion";
+import {Skull} from '@gravity-ui/icons';
 import {
   House,
-  CircleInfo,
   Server,
-  Envelope,
-  Picture,
   Magnifier
 } from '@gravity-ui/icons';
 import GMTLogo from "../../assets/Gicon.png"
@@ -24,19 +22,12 @@ const Navbar: React.FC = () => {
 
   const searchSuggestions: NavigationItem[] = [
     { name: "Home", href: "/", icon: <House className="w-5 h-5" /> },
-    { name: "About Us", href: "/aboutus", icon: <Server className="w-5 h-5" /> },
-    { name: "Projects", href: "/projects", icon: <CircleInfo className="w-5 h-5" /> },
-    { name: "Online Tools", href: "/onlinetools", icon: <Envelope className="w-5 h-5" /> },
-    { name: "News", href: "/news", icon: <Picture className="w-5 h-5" /> },
-    { name: "Mazs", href: "/news1", icon: <Picture className="w-5 h-5" /> },
-    { name  : "Paper Trading", href: "https://paper-trading-simulator.vercel.app/", icon: <Picture className="w-5 h-5" /> },
+    { name: "Blog", href: "/blog", icon: <Server className="w-5 h-5" /> },
   ];
   const navigation = [
     { name: "Home", href: "/", icon: <House className="w-5 h-5" /> },
-    { name: "About Us", href: "/aboutus", icon: <Server className="w-5 h-5" /> },
-    { name: "Projects", href: "/projects", icon: <CircleInfo className="w-5 h-5" /> },
-    { name: "Online Tools", href: "/onlinetools", icon: <Envelope className="w-5 h-5" /> },
-    { name: "News", href: "/news", icon: <Picture className="w-5 h-5" /> },
+    { name: "Blog", href: "/blog", icon: <Server className="w-5 h-5" /> },
+    { name: "I got this feelings, inside my bones ~", href: "/whatthefuck", icon:<Skull className="w-5 h-5" />}
     
   ];
 
