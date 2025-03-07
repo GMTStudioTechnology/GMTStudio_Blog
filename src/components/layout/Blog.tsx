@@ -265,13 +265,13 @@ const Blog: React.FC = () => {
       link: "/blog1",
     },
     {
-      category: "Tech",
-      title: "Latest Tech Trends",
-      description: "Exploring the newest trends in technology.",
-      date: "April 2, 2024",
+      category: "AI",
+      title: "About our Artificial Intelligence research ",
+      description: "In this blog page, we would discuss about our AI research.",
+      date: "March 07, 2025",
       image: Blog_pic,
       author: "Alston Chang",
-      link: "/blog_2",
+      link: "/blog2",
     },
   ];
 

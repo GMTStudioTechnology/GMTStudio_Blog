@@ -9,11 +9,11 @@ const BlogPost = () => {
       <nav className="px-4 py-3 pt-24 bg-zinc-900/50 backdrop-blur-lg fixed top-0 left-0 right-0 z-10">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center space-x-2 text-sm text-zinc-400">
-            <a href="/blog" className="hover:text-white cursor-pointer transition">Blog</a>
+          <a href="/blog" className="hover:text-white cursor-pointer transition">Blog</a>
             <ChevronRight size={16} />
               <a href="/blog" className="hover:text-white cursor-pointer transition">Technology</a>
             <ChevronRight size={16} />
-            <span className="text-white">Setting up Blog Page</span>
+            <span className="text-white">About Artificial intelligence</span>
           </div>
         </div>
       </nav>
@@ -62,10 +62,10 @@ const BlogPost = () => {
           {/* Content */}
           <article className="prose prose-invert max-w-none">
             <p className="text-xl text-zinc-300 leading-relaxed mb-8">
-                Yo! (≧▽≦) I'm the CEO and cofounder of GMTStudio, and I'm super hyped to finally introduce our new personal blog website! This is the place where we spill the tea ☕️ on our latest discoveries, research breakthroughs, and all the crazy projects we've been cooking up in the lab. Whether it's some experimental AI model or just our random chaotic thoughts, this is where it all goes down.
+                Yo! (≧▽≦) I'm the CEO and cofounder of GMTStudio, and I'm here to announce our research about our very own Artificial intelligence model - Mazs AI T-1 
             </p>
 
-            <h2 className="text-3xl font-bold mt-12 mb-6">Why This Blog Even Exists? (¬‿¬)</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-6">Why we choose "why we choose T-1 as our Model name </h2>
             
             <div className="grid grid-cols-2 gap-6 my-8">
               <div className="aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-emerald-600 to-cyan-600">
@@ -77,12 +77,12 @@ const BlogPost = () => {
             </div>
 
             <p className="text-zinc-300 leading-relaxed mb-6">
-              The old website... well, let's just say it looked like a potato (╥﹏╥) and was eating up way too much of our official website's resources. So we decided to break free from that mess and build this dedicated blog site from scratch. Now we have a clean, sleek, and optimized space just for all the geeky stuff we're working on!
+                T Series of our AI models are name after the word " Technology" , due to the fact that AI is a stuff that will bring the next generation of technology, and we also want to let our model help more and more people around the world, so we use T and number as the version of our AI model.
             </p>
 
             <p className="text-zinc-300 leading-relaxed mb-6">
-                Initially, this blog was meant only for project updates, but we figured... why stop there? (¬‿¬) This space is gonna be our digital brain dump where we share everything — what we've learned, tech rants, mind-blowing discoveries, and probably some weird late-night thoughts too. 
-                We want to document every small step of our journey, not just for you guys, but also for ourselves. Let's build this knowledge vault together! ヾ(≧▽≦*)o
+                Mazs AI T series will be the natural language processing model that can answer us in simple conversation, we want to make people feels like they are really talking to a human, but acutally a robot. Also, we are trying to make our AI model WITHOUT any help of existing plugin or library like tensorflow or pytorch, we want to make our AI model from scratch, so we can have a better understanding of how AI works.
+                We would like to share our new progress of out AI model in the future, stay tuned and find out more. 
             </p>
           </article>
         </motion.div>
