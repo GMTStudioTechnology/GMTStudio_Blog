@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
   const navigation = [
     { name: "Home", href: "/", icon: <House className="w-5 h-5" /> },
     { name: "Blog", href: "/blog", icon: <Server className="w-5 h-5" /> },
-    { name: "I got this feelings, inside my bones ~", href: "/whatthefuck", icon:<Skull className="w-5 h-5" />}
+    { name: "I got this feelings, inside my bones ~", href: "/", icon:<Skull className="w-5 h-5" />}
     
   ];
 
