@@ -256,13 +256,13 @@ const Blog: React.FC = () => {
   // Final posts list.
   const posts: ListItemProps[] = [
     {
-      category: "Blog",
-      title: "Setting up Blog Page",
-      description: "This website is my personal blog page.",
-      date: "Feb 17, 2025",
+      category:"Blog",
+      title: "C++ Programming - Lottery system",
+      description: "This blog page is about the C++ programming.",
+      date: "April 01, 2025",
       image: Blog_pic,
-      author: "Alston Chang",
-      link: "/blog1",
+      author:"Alston Chang",
+      link: "/blog3",
     },
     {
       category: "AI",
@@ -272,6 +272,15 @@ const Blog: React.FC = () => {
       image: Blog_pic,
       author: "Alston Chang",
       link: "/blog2",
+    },
+    {
+      category: "Blog",
+      title: "Setting up Blog Page",
+      description: "This website is my personal blog page.",
+      date: "Feb 17, 2025",
+      image: Blog_pic,
+      author: "Alston Chang",
+      link: "/blog1",
     },
   ];
 
